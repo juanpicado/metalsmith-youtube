@@ -1,25 +1,31 @@
 {
   "name": "metalsmith-youtube",
-  "version": "0.0.1-alpha",
+  "version": "0.0.1-alpha-290816",
   "description": "A Metalsmith plugin that lets you get embed Youtube Videos",
   "main": "lib/index.js",
   "scripts": {
     "build": "babel src -d lib",
+    "build:w": "babel src -d lib --watch",
     "prepublish": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "Juan Picado <me@jotadeveloper.com> (https://wwwjotadeveloper.com/)",
+  "keywords": [
+    "metalsmith",
+    "youtube",
+    "plugin"
+  ],
+  "author": "Juan Picado <juanpicado19@gmail.com> (https://www.jotadeveloper.com/)",
   "license": "MIT",
   "dependencies": {
     "debug": "^2.2.0"
   },
-  "files" : [
+  "files": [
     "lib",
     "package.json"
   ],
   "devDependencies": {
     "babel-cli": "^6.16.0",
+    "babel-plugin-transform-object-assign": "^6.8.0",
     "babel-polyfill": "^6.16.0",
     "babel-preset-es2015": "^6.16.0"
   }
