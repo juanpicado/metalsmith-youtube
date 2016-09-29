@@ -1,0 +1,7 @@
+node_modules
+npm-debug.log
+._*
+.DS_Store
+.npmrc
+.svn
+.babelrc
