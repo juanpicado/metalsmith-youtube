@@ -1,6 +1,6 @@
 {
   "name": "metalsmith-youtube",
-  "version": "0.0.1-alpha-290816",
+  "version": "1.0.0",
   "description": "A Metalsmith plugin that lets you get embed Youtube Videos",
   "main": "lib/index.js",
   "scripts": {
