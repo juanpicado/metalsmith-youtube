@@ -17,7 +17,7 @@
   "author": "Juan Picado <juanpicado19@gmail.com> (https://www.jotadeveloper.com/)",
   "license": "MIT",
   "dependencies": {
-    "debug": "^2.2.0"
+    "babel-polyfill": "^6.16.0"
   },
   "files": [
     "lib",
@@ -26,7 +26,6 @@
   "devDependencies": {
     "babel-cli": "^6.16.0",
     "babel-plugin-transform-object-assign": "^6.8.0",
-    "babel-polyfill": "^6.16.0",
     "babel-preset-es2015": "^6.16.0"
   }
 }
