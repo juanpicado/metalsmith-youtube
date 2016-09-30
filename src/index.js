@@ -23,13 +23,12 @@ class Youtube {
    */
   parse(cb) {
     Object.keys(this.files).forEach((file) => {
-       let articleText = this.files[file].contents.toString();
-       let matches = this._getYoutubes(articleText);
+       let matches = this._getYoutubes(this.files[file].contents.toString());
        if (matches !== null) {
          matches.forEach((element) => {
             var id = element.split('|')[1];
             var iframe = this._createIframeBody(id, this.options.width, this.options.height);
-            this.files[file].contents = articleText.replace(element, iframe);
+            this.files[file].contents = this.files[file].contents.toString().replace(element, iframe);
          });
        }
     });
