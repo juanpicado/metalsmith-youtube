@@ -2,6 +2,8 @@
 
 A [Metalsmith](https://github.com/segmentio/metalsmith) plugin that lets you get embed Youtube Videos
 
+[![Build Status](https://travis-ci.org/juanpicado/metalsmith-youtube.svg?branch=master)](https://travis-ci.org/juanpicado/metalsmith-youtube)
+
 ## Installation
 
     $ npm install metalsmith-youtube
