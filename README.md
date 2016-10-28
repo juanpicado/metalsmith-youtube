@@ -25,6 +25,8 @@ metalsmith.use(youtube({
 }));
 ```
 
+Note that metalsmith-youtube should run before your Markdown parser. While you *can* run it after parsing Markdown, doing so is a bad idea.
+
 step 2
 
 ```
